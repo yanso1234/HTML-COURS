@@ -1,0 +1,80 @@
+h1 {
+ font-family: Arial;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightyellow;
+}
+body {
+    font-family: "Courier New", serif ;
+}
+.p2 {
+    color: darkviolet;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+p3 {
+font-family: Arial;
+    font-size: 11px;
+    text-indent : 20px;
+    margin-top:25px;
+    margin-bottom:25cm;
+}
+h5 {
+    font-family: Arial;
+    font-weight: bold;
+    color: blue;
+    font-size: 15px;
+}
+p5 {
+    font-family: "Times New Roman";
+    font-size: 12px;
+    font-style: italic;
+    margin-right:5cm;
+    margin-left:1cm;
+    margin-bottom: 20px;
+    margin-top:10px
+}
+p6 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p8 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p9 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p10 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p11 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p12 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p13 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p14 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p15 {
+    text-decoration: underline;
+    font-size: 13px;
+}
+p16 {
+    margin-top:10px
+    margin-bottom:20px
+}
+
