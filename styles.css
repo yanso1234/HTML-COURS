@@ -37,9 +37,10 @@ p5 {
     margin-bottom: 20px;
     margin-top:10px
 }
-p6 {
+p6:hover{
     text-decoration: underline;
     font-size: 13px;
+    color: green;
 }
 p8 {
     text-decoration: underline;
@@ -82,3 +83,6 @@ h5:hover{
     color: green;
 }
 
+p5:hover{
+    font-style: italic;
+}
