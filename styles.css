@@ -31,7 +31,6 @@ h5 {
 p5 {
     font-family: "Times New Roman";
     font-size: 12px;
-    font-style: italic;
     margin-right:5cm;
     margin-left:1cm;
     margin-bottom: 20px;
@@ -83,6 +82,6 @@ h5:hover{
     color: green;
 }
 
-p5:hover{
+p98:hover{
     font-style: italic;
 }
