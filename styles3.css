@@ -1,0 +1,19 @@
+/* Style de base pour les liens */
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+
+a:visited {
+    color: #333;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+a:active {
+    color: #333;
+}
