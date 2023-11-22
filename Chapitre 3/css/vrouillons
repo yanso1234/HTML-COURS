@@ -1,0 +1,74 @@
+<style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .star {
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
+            animation: twinkling 5s infinite;
+        }
+
+        @keyframes twinkling {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .logo {
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stars"></div>
+
+    <div class="logo">
+        <h1>PortFolio De Yanis</h1>
+    </div>
+
+    <!-- Your existing HTML content -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const starsContainer = document.querySelector(".stars");
+
+            for (let i = 0; i < 100; i++) {
+                createStar();
+            }
+
+            function createStar() {
+                const star = document.createElement("div");
+                star.className = "star";
+                star.style.width = `${Math.random() * 2}px`;
+                star.style.height = star.style.width;
+
+                const xPos = Math.random() * window.innerWidth;
+                const yPos = Math.random() * window.innerHeight;
+
+                star.style.left = `${xPos}px`;
+                star.style.top = `${yPos}px`;
+
+                starsContainer.appendChild(star);
+            }
+        });
+    </script>
