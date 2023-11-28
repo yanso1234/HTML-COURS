@@ -12,51 +12,45 @@
             min-height: 100vh;
             margin: 0;
         }
-
-        header {
-            /* styles pour le header */
-        }
-
-        nav {
-            /* styles pour la navigation */
-        }
-
         .espace-entre-menu-et-texte {
-            flex: 1; /* permet au contenu de prendre tout l'espace disponible */
+            flex: 1;
             padding: 20px;
             text-align: center;
         }
-
         footer {
             background-color: black;
             color: white;
             padding: 10px;
             text-align: center;
-            position: relative; /* pour positionner les éléments enfants par rapport à ce parent */
         }
-
-        .logos-container {
+        .logos-container img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .language-container {
             margin-top: 10px;
         }
-
-        .logos-container img {
-            width: 20px; /* Ajustez la taille des logos ici */
-            height: 20px;
-            margin-right: 10px; /* Marge entre les logos (ajustez selon vos besoins) */
+        .language-link {
+            margin-right: 10px;
+            color: white;
+            text-decoration: none;
         }
-
+        .language-link:hover {
+            text-decoration: underline;
+        }
         .copyright-text {
             position: absolute;
             right: 0;
             bottom: 0;
-            color: grey; /* Couleur grise */
+            color: grey;
         }
     </style>
 </head>
 
 <body>
 <header>
-    <h1><a href="portefolio.html">PortFolio De Yanis :</a></h1>
+    <h1> PortFolio De Yanis</h1>
     <a href="portefolio.html"><img width="20" height="20" border="0" src="../img/1239292.png" alt="Bouton retour à l'accueil" /></a>
     <p class="p2"></p>
 </header>
@@ -66,8 +60,8 @@
         <li><a href="#">Accueil</a></li>
         <li><a href="certification.html">Mes Certifications </a>
             <ul>
-                <li><a href="#">Sous-menu 1.1</a></li>
-                <li><a href="#">Sous-menu 1.2</a></li>
+                <li><a href="Attestation%20ansii.pdf">ANSII</a></li>
+                <li><a href="cnil.zip">CNIL</a></li>
             </ul>
         </li>
         <li><a href="#">curriculum vitae</a>
@@ -76,21 +70,25 @@
                 <li><a href="#">Ma lettre de Motivation </a></li>
             </ul>
         </li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
+
+
 
 <div class="espace-entre-menu-et-texte">
     <!-- Contenu de la page de bienvenue -->
     <h2>ezqscxwsdsq</h2>
     <p></p>
 </div>
+<body>
+</body>
 
 <footer>
     <!-- Utilisation de la balise div avec la classe logos-container -->
     <div class="logos-container">
         <!-- Ajoutez vos logos ici -->
-        <a href="https://www.linkedin.com/in/yanis-bouvet-213469231"><img src="../img/LinkedIn_logo_initials.png" alt="Description de votre image"></a>
+        <a href="https://www.linkedin.com/in/yanis-bouvet-213469231"><img src="../img/LinkedIn_logo_initials.png" alt="Description de votre image">
         <a href="https://github.com/yanso1234"><img src="../img/GitHub-Mark-ea2971cee799-removebg-preview.png" alt="Description de votre image"></a>
         <a href="https://www.linkedin.com/in/yanis-bouvet-213469231"><img src="../img/LinkedIn_logo_initials.png" alt="Description de votre image"></a>
     </div>

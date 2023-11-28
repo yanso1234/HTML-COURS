@@ -130,3 +130,18 @@ p25 {
 footer {
 color: white;
 }
+.footer-with-stars {
+    background-image: url('pexels-francesco-ungaro-998641.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.maps{
+    text-align: right;
+    text-align-all: center;
+}
+.ansii{
+    text-align: center;
+    width: 10% ;
+    height: 10%;
+}
