@@ -14,6 +14,9 @@ h1 {
     font-family: "Verdana";
     text-align: center;
 }
+p56{
+    font-size: 20px;
+}
 
 * {
     margin: 0;
@@ -99,13 +102,7 @@ nav ul li:hover > ul {
 
 
 
-.p2 {
-    font-family: Arial;
-    color: black;
-    font-size: 30px;
-    text-align: center;
 
-}
 
 h2 {
     font-family: "Verdana";
@@ -144,4 +141,46 @@ color: white;
     text-align: center;
     width: 10% ;
     height: 10%;
+}
+.p20{
+    text-align: left;
+    font-family: Arial;
+    color: black;
+    font-size: 30px;
+    width: 130%;
+
+}
+.p3{
+    width: 130%;
+    font-family: Arial;
+    color: black;
+    font-size: 30px;
+    height: 0px;
+
+}
+.options-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sisr-option,
+.slam-option {
+    width: 48%; /* Pour laisser un léger espace entre les options */
+    text-align: left;
+
+}
+
+.sisr-option {
+    background-color: white; /* Style pour l'option SISR */
+}
+
+.slam-option {
+    background-color: white; /* Style pour l'option SLAM */
+}
+
+.debouches-text{
+    color: orange;
+}
+.options{
+    color: orange;
 }
