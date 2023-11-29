@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mon Portefolio </title>
+    <title>Mon Portfolio</title>
     <link href="../css/stylesp.css" rel="stylesheet">
     <style>
         body {
@@ -12,95 +12,108 @@
             min-height: 100vh;
             margin: 0;
         }
+
         .espace-entre-menu-et-texte {
             flex: 1;
             padding: 20px;
             text-align: center;
         }
+
         footer {
             background-color: black;
             color: white;
             padding: 10px;
             text-align: center;
         }
+
         .logos-container img {
             width: 20px;
             height: 20px;
             margin-right: 10px;
         }
+
         .language-container {
             margin-top: 10px;
         }
+
         .language-link {
             margin-right: 10px;
             color: white;
             text-decoration: none;
         }
+
         .language-link:hover {
             text-decoration: underline;
         }
+
         .copyright-text {
             position: absolute;
             right: 0;
             bottom: 0;
             color: grey;
         }
+
+        /* Styles pour les options SIO */
+        h3, h4, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .options-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sisr-option,
+        .slam-option {
+            width: 48%; /* Pour laisser un léger espace entre les options */
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        /* Style pour centrer le texte dans la classe spécifique */
+        .debouches-text {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Styles pour la liste des débouchés */
+        .debouches-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .debouches-list li {
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 
 <body>
 <header>
-    <h1> PortFolio De Yanis</h1>
+    <h1>Portfolio De Yanis</h1>
     <a href="portefolio.html"><img width="20" height="20" border="0" src="../img/1239292.png" alt="Bouton retour à l'accueil" /></a>
+    <p class="p2"></p>
 </header>
 
 <nav>
     <ul>
         <li><a href="#">Accueil</a></li>
-        <li><a href="#">Mes Certifications </a>
+        <li><a href="#">Mes Certifications</a>
             <ul>
                 <li><a href="Attestation%20ansii.pdf">ANSII</a></li>
                 <li><a href="cnil.zip">CNIL</a></li>
             </ul>
         </li>
-        <li><a href="#">curriculum vitae</a>
+        <li><a href="#">Curriculum vitale</a>
             <ul>
                 <li><a href="CV%20BOUVET%20YANIS%2009.08.23.docx%20(1).pdf">Mon Cv</a></li>
-                <li><a href="#">MES EXPERIENCES PROFESIONNELS</a></li>
+                <li><a href="#">Ma lettre de Motivation </a></li>
+                <li><a href="#">Mes experiences</a></li>
             </ul>
         </li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Veilles Informatiques </a></li>
     </ul>
 </nav>
-<div class="espace-entre-menu-et-texte">
-</div>
-
-
-</div>
-<div class="maps"> <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10830.246135749885!2d6.03423977501311!3d47.26427660018195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d62cef531198d%3A0x97cd6a871a81cd73!2sLyc%C3%A9e%20Louis%20Pergaud!5e0!3m2!1sfr!2snl!4v1701178734952!5m2!1sfr!2snl" width="400" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>></iframe>
-</div>
-<footer class="footer-with-stars">
-    <div class="logos-container">
-        <a href="https://www.linkedin.com/in/yanis-bouvet-213469231"><img src="../img/LinkedIn_logo_initials.png"></a>
-        <a href="https://github.com/yanso1234"><img src="../img/GitHub-Mark-ea2971cee799-removebg-preview.png"></a>
-        <a href="mailto:yanisbouvet6@gmail.fr"><img src="pngimg.com%20-%20email_PNG100737.png"></a>
-    </div>
-
-    <div class="language-container">
-        <a href="" class="language-link" onclick="changeLanguage('fr')">Contact </a>
-        <a href="#" class="language-link" onclick="changeLanguage('en')">English</a>
-        ->
-    </div>
-
-    <div class="copyright-text">© 2023 Tous droits réservés</div>
-</footer>
-
-</script>
-
-</body>
-<body>
-
-
-</body>
-
-</html>
