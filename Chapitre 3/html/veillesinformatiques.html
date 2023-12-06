@@ -1,119 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Mon Portfolio</title>
     <link href="../css/stylesp.css" rel="stylesheet">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-        }
-
-        .espace-entre-menu-et-texte {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: black;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .logos-container img {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-        }
-
-        .language-container {
-            margin-top: 10px;
-        }
-
-        .language-link {
-            margin-right: 10px;
-            color: white;
-            text-decoration: none;
-        }
-
-        .language-link:hover {
-            text-decoration: underline;
-        }
-
-        .copyright-text {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            color: grey;
-        }
-
-        /* Styles pour les options SIO */
-        h3, h4, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
-        .options-container {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .sisr-option,
-        .slam-option {
-            width: 48%; /* Pour laisser un léger espace entre les options */
-            text-align: left;
-            margin-bottom: 20px;
-        }
-
-        /* Style pour centrer le texte dans la classe spécifique */
-        .debouches-text {
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        /* Styles pour la liste des débouchés */
-        .debouches-list {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .debouches-list li {
-            margin-bottom: 5px;
-        }
-    </style>
 </head>
-
 <body>
 <header>
     <h1>Portfolio De Yanis</h1>
-    <a href="portefolio.html"><img width="20" height="20" border="0" src="../img/1239292.png" alt="Bouton retour à l'accueil" /></a>
+    <a href="portefolio.html"> <img width="20" height="20" src="../img/1239292.png" alt="Bouton retour à l'accueil" /></a>
     <p class="p2"></p>
 </header>
 
 <nav>
     <ul>
-        <li><a href="#">Accueil</a></li>
+        <li><a href="portefolio.html">Accueil</a></li>
         <li><a href="#">Mes Certifications</a>
             <ul>
                 <li><a href="Attestation%20ansii.pdf">ANSII</a></li>
-                <li><a href="cnil.zip">CNIL</a></li>
+                <li><a href="../Fichier/cnil.zip">CNIL</a></li>
             </ul>
         </li>
         <li><a href="#">Curriculum vitale</a>
             <ul>
                 <li><a href="CV%20BOUVET%20YANIS%2009.08.23.docx%20(1).pdf">Mon Cv</a></li>
-                <li><a href="#">Ma lettre de Motivation </a></li>
-                <li><a href="#">Mes experiences</a></li>
+                <li><a href="experience.html">Mes experiences, Mes Projets </a></li>
+                <li><a href="MesStages.html">Mes stages</a></li>
             </ul>
         </li>
-        <li><a href="contact.html">Veilles Informatiques </a></li>
+        <li><a href="veillesinformatiques.html">Veilles Informatiques </a></li>
     </ul>
 </nav>
+
+<div class="espace-entre-menu-et-texte">
+
+        </div>
+    </div>
+</div>
+
+<footer class="footer-with-stars">
+    <div class="logos-container">
+        <a href="https://www.linkedin.com/in/yanis-bouvet-213469231"><img src="../img/LinkedIn_logo_initials.png"></a>
+        <a href="https://github.com/yanso1234"><img src="../img/GitHub-Mark-ea2971cee799-removebg-preview.png"></a>
+        <a href="mailto:yanisbouvet6@gmail.fr"><img src="pngimg.com%20-%20email_PNG100737.png"></a>
+    </div>
+
+    <div class="language-container">
+        <a href="portefolio.html" class="language-link">ACCUEIL</a>
+        <a href="veillesinformatiques.html">veilles informatiques</a>
+    </div>
+
+    <div class="copyright-text">© 2023 Tous droits réservés</div>
+</footer>
+
+</body>
+
+</html>

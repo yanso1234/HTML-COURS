@@ -1,117 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Mon Portfolio</title>
     <link href="../css/stylesp.css" rel="stylesheet">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-        }
-
-        .espace-entre-menu-et-texte {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: black;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .logos-container img {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-        }
-
-        .language-container {
-            margin-top: 10px;
-        }
-
-        .language-link {
-            margin-right: 10px;
-            color: white;
-            text-decoration: none;
-        }
-
-        .language-link:hover {
-            text-decoration: underline;
-        }
-
-        .copyright-text {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            color: grey;
-        }
-
-        /* Styles pour les options SIO */
-        h3, h4, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
-        .options-container {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .sisr-option,
-        .slam-option {
-            width: 48%; /* Pour laisser un léger espace entre les options */
-            text-align: left;
-            margin-bottom: 20px;
-        }
-
-        /* Style pour centrer le texte dans la classe spécifique */
-        .debouches-text {
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        /* Styles pour la liste des débouchés */
-        .debouches-list {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .debouches-list li {
-            margin-bottom: 5px;
-        }
-    </style>
 </head>
-
 <body>
 <header>
     <h1>Portfolio De Yanis</h1>
-    <a href="portefolio.html"><img width="20" height="20" border="0" src="../img/1239292.png" alt="Bouton retour à l'accueil" /></a>
+    <a href="portefolio.html"> <img width="20" height="20" src="../img/1239292.png" alt="Bouton retour à l'accueil" /></a>
     <p class="p2"></p>
 </header>
 
 <nav>
     <ul>
-        <li><a href="#">Accueil</a></li>
+        <li><a href="portefolio.html">Accueil</a></li>
         <li><a href="#">Mes Certifications</a>
             <ul>
                 <li><a href="Attestation%20ansii.pdf">ANSII</a></li>
-                <li><a href="cnil.zip">CNIL</a></li>
+                <li><a href="../Fichier/cnil.zip">CNIL</a></li>
             </ul>
         </li>
         <li><a href="#">Curriculum vitale</a>
             <ul>
                 <li><a href="CV%20BOUVET%20YANIS%2009.08.23.docx%20(1).pdf">Mon Cv</a></li>
-                <li><a href="#">Ma lettre de Motivation </a></li>
-                <li><a href="#">Mes experiences</a></li>
+                <li><a href="experience.html">Mes experiences, Mes Projets </a></li>
+                <li><a href="MesStages.html">Mes stages</a></li>
             </ul>
         </li>
         <li><a href="veillesinformatiques.html">Veilles Informatiques </a></li>
@@ -119,11 +33,10 @@
 </nav>
 
 <div class="espace-entre-menu-et-texte">
-    <!-- Contenu de la page de bienvenue -->
-    <h2 id="welcome-message">Bienvenue sur Mon Portfolio !</h2>
-    <p>Merci de visiter ma page. N'hésitez pas à explorer mes certifications, mon curriculum vitae, et à me contacter si vous avez des questions.</p>
+
+    <h2> Présentation du BTS SIO !</h2> <pre></pre>
 <pre></pre>
-    <h3>Options du BTS SIO :</h3><pre> </pre>
+    <pre> </pre><h3>Les Diffèrentes Options du BTS SIO :</h3><pre> </pre>
     <div class="options-container">
         <div class="sisr-option">
            <div class="options"><h4>Option SISR</h4></div>
@@ -131,10 +44,10 @@
             <p>L’option SISR est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance d’infrastructures réseaux. Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation.</p>
             <p>Des cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.</p>
 
-            <!-- Texte centré pour les débouchés -->
+
             <p class="debouches-text">Voici les débouchés du BTS SIO SISR :</p>
 
-            <!-- Liste des débouchés -->
+
             <ul class="debouches-list">
                 <li>• Technicien de production</li>
                 <li>• Technicien d’infrastructure</li>
@@ -153,7 +66,7 @@
             <p>Ils pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.</p>
             <pre> </pre>
 
-            <!-- Texte centré pour les débouchés -->
+
             <p class="debouches-text">Voici les débouchés du BTS SIO SLAM :</p>
             <ul class="debouches-list">
                 <li>• Développeur d'applications informatiques</li>
@@ -179,8 +92,8 @@
     </div>
 
     <div class="language-container">
-        <a href="contact.html" class="language-link">Contact</a>
-        <a href="#" class="language-link">Menu</a>
+        <a href="portefolio.html" class="language-link">ACCUEIL</a>
+        <a href="veillesinformatiques.html">veilles informatiques</a>
     </div>
 
     <div class="copyright-text">© 2023 Tous droits réservés</div>
