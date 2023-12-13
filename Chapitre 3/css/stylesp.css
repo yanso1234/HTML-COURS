@@ -42,6 +42,7 @@ nav li {
     float: left;
     width: 25%;
     text-align: center;
+
 }
 
 nav {
@@ -97,6 +98,7 @@ nav ul ul a:hover {
 
 nav ul li:hover > ul {
     display: block;
+
 }
 h2 {
     font-family: "Verdana";
@@ -192,15 +194,16 @@ footer {
 }
 
 .logos-container img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
 .copyright-text {
     position: absolute;
+    text-align: center;
     right: 0;
     bottom: 0;
-    color: grey;
+    color: white;
 }
 
 h3, h4, p, ul, li {
@@ -222,7 +225,8 @@ h3, h4, p, ul, li {
 .debouches-text {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
 }
 
 .debouches-list {
@@ -274,3 +278,13 @@ p50{
     font-family: Bahnschrift;
    ;
 }
+
+.acceuil{
+    font-size: 70px;
+    text-align: center;
+    font-family: Bahnschrift;
+    font-weight: bold;
+
+
+}
+

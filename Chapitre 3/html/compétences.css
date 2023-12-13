@@ -1,0 +1,205 @@
+
+// script copié
+HTML CSS
+
+Result
+Skip Results Iframe
+
+EDIT ON
+
+body { background: #E9E5E2;margin:2%; }
+
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 95%;
+    height: auto;
+    margin: 40px auto;
+    background-color: #fff;
+//border: 1px solid #cdcdcd;
+    padding: 10px;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 30%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+        width: 30px;
+    }
+    to {
+        width: 30%}
+}@-webkit-keyframes Animate-HTML {
+     from {
+         width: 30px;
+     }
+     to {
+         width: 30%}
+ }@-moz-keyframes Animate-HTML {
+      from {
+          width: 30px;
+      }
+      to {
+          width: 30%}
+  }@-o-keyframes Animate-HTML {
+       from {
+           width: 30px;
+       }
+       to {
+           width: 30%}
+   }#Skill-CSS {
+        animation: Animate-CSS 4s;
+        -webkit-animation: Animate-CSS 4s;
+        -moz-animation: Animate-CSS 4s;
+        -o-animation: Animate-CSS 4s;
+        width: 20%;
+        height: 50px;
+        position: absolute;
+        background-color: #55a69f;
+    }
+@keyframes Animate-CSS {
+    from {
+        width: 30px;
+    }
+    to {
+        width: 30%}
+}@-webkit-keyframes Animate-CSS {
+     from {
+         width: 30px;
+     }
+     to {
+         width: 30%}
+ }@-moz-keyframes Animate-CSS {
+      from {
+          width: 30px;
+      }
+      to {
+          width: 30%}
+  }@-o-keyframes Animate-CSS {
+       from {
+           width: 30px;
+       }
+       to {
+           width: 30%}
+
+   }#Skill-PHP {
+        animation: Animate-PHP 4s;
+        -webkit-animation: Animate-PHP 4s;
+        -moz-animation: Animate-PHP 4s;
+        -o-animation: Animate-PHP 4s;
+        width: 20%;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+    }
+@keyframes Animate-PHP {
+    from {
+        width: 20px;
+    }
+    to {
+        width: 20%}
+}@-webkit-keyframes Animate-PHP {
+     from {
+         width: 20px;
+     }
+     to {
+         width: 20%}
+ }@-moz-keyframes Animate-PHP {
+      from {
+          width: 20px;
+      }
+      to {
+          width: 20%}
+  }@-o-keyframes Animate-PHP {
+       from {
+           width: 20px;
+       }
+       to {
+           width: 20%}
+
+
+}#Skill-SQL {
+        animation: Animate-SQL 4s;
+        -webkit-animation: Animate-SQL 4s;
+        -moz-animation: Animate-SQL 4s;
+        -o-animation: Animate-SQL 4s;
+        width: 30%;
+        height: 50px;
+        position: absolute;
+        background-color: #23b1db;
+    }
+@keyframes Animate-SQL {
+    from {
+        width: 30px;
+    }
+    to {
+        width: 30%}
+}@-webkit-keyframes Animate-SQL {
+     from {
+         width: 30px;
+     }
+     to {
+         width: 30%}
+ }@-moz-keyframes Animate-SQL {
+      from {
+          width: 30px;
+      }
+      to {
+          width: 30%}
+  }@-o-keyframes Animate-SQL {
+       from {
+           width: 30px;
+       }
+       to {
+           width: 30%}
+   }.Skill-Area {
+        z-index: 1;
+        float: left;
+    //position: absolute;
+        margin-top: 15px;
+        margin-left: 15px;
+        text-shadow: none;
+        color: #fff;
+    //font-family: Lato-Regular, sans-serif;
+        font-size: 18px;
+    }
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+//font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+p50{
+    color: black;
+    font-size: 30px;
+}
+
