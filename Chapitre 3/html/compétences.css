@@ -1,5 +1,11 @@
 
 // script copié
+
+
+
+
+
+
 HTML CSS
 
 Result
@@ -72,13 +78,13 @@ body { background: #E9E5E2;margin:2%; }
        to {
            width: 30%}
    }#Skill-CSS {
-        animation: Animate-CSS 4s;
-        -webkit-animation: Animate-CSS 4s;
-        -moz-animation: Animate-CSS 4s;
-        -o-animation: Animate-CSS 4s;
-        width: 20%;
-        height: 50px;
-        position: absolute;
+              width: 30%;
+              animation: Animate-HTML 4s;
+              -webkit-animation: Animate-HTML 4s;
+              -moz-animation: Animate-HTML 4s;
+              -o-animation: Animate-HTML 4s;
+              height: 50px;
+              position: absolute;
         background-color: #55a69f;
     }
 @keyframes Animate-CSS {
