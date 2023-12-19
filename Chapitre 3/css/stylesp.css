@@ -123,10 +123,6 @@ p25 {
 }
 
 
-.maps{
-    text-align: right;
-    text-align-all: center;
-}
 .ansii{
     text-align: center;
     width: 10% ;
@@ -194,11 +190,8 @@ footer {
     text-align: center;
 }
 
-.logos-container img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
+
+/* text de copyrihgt pied de page */
 .copyright-text {
     position: absolute;
     text-align: center;
@@ -216,26 +209,26 @@ h3, h4, p, ul, li {
     justify-content: space-between;
 }
 
-.sisr-option,
+.sisr-option, /*Modification du texte de l'option SISR ET SLAM*/
 .slam-option {
     width: 48%;
     text-align: left;
     margin-bottom: 20px;
 }
-
+/* Supression des points des metiers sur la page portefolio.html et style*/
 .debouches-text {
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
 
 }
-
+/* Supression des points des metiers sur la page portefolio.html et style*/
 .debouches-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
+/* Supression des points des metiers sur la page portefolio.html et style*/
 .debouches-list li {
     margin-bottom: 5px;
 }
@@ -253,34 +246,24 @@ header {
     color: #fff; /* Couleur du texte */
     text-align: center;
 }
-nav {
-    background-color: #2c3e50; /* Couleur de fond pour la navigation (gris foncé) */
+nav { /*couleur de fond pour mon menu*/
+    background-color: #2c3e50;
     color: #fff;
     padding: 10px;
 }
 
 
-.logos-container {
+.logos-container { /*Espace entre les logos du bas de page*/
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
-
-.language-container {
-    margin-top: 10px;
+.logos-container img {  /*Définir la taille des logos*/
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
-
-.language-link {
-    margin-right: 20px;
-}
-p50{
-    font-weight: blod;
-    color: black;
-    font-family: Bahnschrift;
-   ;
-}
-
-.acceuil{
+.acceuil{ /*Mot page d'acceuil*/
     font-size: 70px;
     text-align: center;
     font-family: Bahnschrift;
