@@ -243,3 +243,73 @@ nav { /*couleur de fond pour mon menu*/
     font-weight: bold;
 }
 
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.espace-entre-menu-et-texte {
+    margin-top: 20px;
+    text-align: center; /* Centrer le texte */
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Pour assurer le retour à la ligne des logos si l'espace est insuffisant */
+    margin-top: 20px; /* Ajout de marge en haut */
+}
+
+.img1, .img2 {
+    width: 400px;
+    margin: 10px; /* Ajout de marge entre les logos */
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-with-stars {
+    text-align: center;
+    padding: 20px; /* Ajout de marge intérieure dans le footer */
+    background-color: #2c3e50; /* Changement de couleur de fond du footer */
+    color: #fff;
+}
+
+.copyright-text {
+    margin-top: 10px;
+}
